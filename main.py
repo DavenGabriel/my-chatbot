@@ -52,4 +52,4 @@ def gemini_api():
 
 # Jalankan aplikasi Flask
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
