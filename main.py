@@ -35,7 +35,7 @@ chat_session = model.start_chat(history=[])
 app = Flask(__name__)
 
 @app.route("/")
-def awal():
+def home():
     return render_template("index.html")
 
 @app.route("/gemini-api", methods=["POST"])
